@@ -24,8 +24,8 @@ echo "netplan --debug try --config-file /etc/netplan/01-netcfg.yaml"
 echo "netplan --debug try --config-file /etc/netplan/01-netcfg.yaml" >>  ~/.bash_history
 echo "netplan apply"
 echo "netplan apply"  >>  ~/.bash_history
-echo "ping -n 5 10.32.15.141"
-echo "ping -n 5 10.32.15.141"  >>  ~/.bash_history
+echo "ping -c5 10.32.15.141"
+echo "ping -c5 10.32.15.141"  >>  ~/.bash_history
 
 echo "Run history -n to get them"
 
