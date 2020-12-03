@@ -11,7 +11,10 @@ then
         echo "You have to pass the XX of the local IP"
         exit
 fi
-
+if [ "$1" == "XX" ]; then
+  echo "IP on a dit !! Pas XX"
+  exit
+fi
 
 echo "
     ens192:
