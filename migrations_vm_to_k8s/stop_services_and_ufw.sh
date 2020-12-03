@@ -6,12 +6,6 @@ then
         exit
 fi
 
-if [ -z "$1" ]
-then
-        echo "You have to pass the old IP as first parameter"
-        exit
-fi
-
 # stop services
 echo "#### Stopping nginx";
 service nginx stop
